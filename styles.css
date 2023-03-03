@@ -1,0 +1,213 @@
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: rgb(95, 88, 88);
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-header{ 
+    height:  250px; 
+    padding:30px;
+    display:block;
+border-radius: 20px;}
+
+.titulo{
+
+    text-align: center;
+
+}
+
+.nombrecompania{
+
+    text-align: center;
+}
+
+.form{
+    background:rgb(95, 88, 88);
+    padding: 100px ;
+    box-shadow: 0 0 6px 0 white ;
+    border-radius: 20px;
+}
+.form{
+    width: 100%;
+    margin: auto;
+
+}
+.G1{
+    position: relative;
+    margin:45px ;
+}
+input.inp {
+    background: rgb(169, 162, 162);
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    padding:9px;
+    display:block;
+    width: 100%;
+    border: gray;
+    border-bottom: none;
+    border-radius: 5px;
+}
+
+input.inp:focus{
+    outline: none;
+    color: rgb(56, 19, 19);
+}
+.l1{
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    position:absolute;
+    left: 5px;
+    top:10px;
+    transition: 0.5s ease-in-out all;
+    pointer-events: none;
+
+}
+input.inp:focus~.l1,
+input.inp:valid~.l1{
+top:-14px;
+font-size: 12px;
+color: rgb(129, 112, 84);
+}
+.barra{
+    position: relative;
+    display: block;
+    width: 100%;
+    background-color: rgb(132, 117, 117);
+}
+
+input:focus~.barra::before{
+    width: 100%;
+}
+
+
+.iniciarsesion{
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+background-color: rgb(255, 255, 255);
+border: rgb(255, 255, 255);
+display:block;
+width: 70%;
+margin: 10px auto ;
+color: rgb(0, 0, 0);
+padding: 10px;
+border-radius: 5px;
+font-size: 15px;
+}
+
+
+
+.cuerpo2{
+    background: rgb(215, 213, 213);
+    padding: 20px 0;
+    box-shadow: 0 0 6px 0 rgb(155, 152, 152);
+    border-radius: 10px;
+    font-size: 23px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.cuerpo3{
+    background: rgb(215, 213, 213);
+    padding: 20px 0;
+    box-shadow: 0 0 6px 0 rgb(155, 152, 152);
+    border-radius: 10px;
+}
+
+.cuerpo4{
+    background: rgb(215, 213, 213);
+    padding: 20px 0;
+    box-shadow: 0 0 6px 0 rgb(155, 152, 152);
+    border-radius: 10px;
+}
+.cuerpo5{
+    background: rgb(215, 213, 213);
+    padding: 20px 0;
+    box-shadow: 0 0 6px 0 rgb(155, 152, 152);
+    border-radius: 10px;
+}
+
+
+
+
+.Caja{
+    position: relative;
+    margin: 10px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+button.boton{
+
+    background: none;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    padding:15px;
+    width: 70%;
+    border-radius: 5px;
+    border-color: gray;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+
+
+.back{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(6, 6, 6);
+    border: rgb(255, 255, 255);
+    display:block;
+    width: 70%;
+    margin: 10px auto ;
+    color: rgb(251, 251, 251);
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+
+
+
+
+}
+
+
+
+
+.C3{
+    position: relative;
+    margin: 10px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+
+
+
+input.inp2{
+    background: none;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    padding:10px;
+    display:block;
+
+    width: 80%;
+    border-radius: 5px;
+
+}
+
+input.aceptar{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+background-color: rgb(95, 95, 95);
+border: none;
+display:block;
+width: 100px;
+margin: 10px auto ;
+color: rgb(255, 255, 255);
+padding: 10px 10px 10px 5px;
+border-radius: 10px;
+font-size: 20px;
+}
